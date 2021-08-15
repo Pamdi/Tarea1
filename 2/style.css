@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background: rgb(63,165,251);
+background: radial-gradient(circle, rgba(63,165,251,1) 0%, rgba(12,198,114,1) 100%);}
+
+
+
+.form-login {
+    width: 500px;
+    background-image: url('fondo.jpg');
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 15px 35px 35px #000;
+    padding: 15px 30px;
+    border-top: 5px solid rgba(180, 251, 208, 0.7);
+    color: white;
+}
+
+.form-login h3 {
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;}
+
+.control {
+   width: 100%;
+   border: 2px solid rgba(180, 251, 208, 0.7) ;
+   margin-bottom: 30px;
+   padding: 9px 11px;
+   background: #3d3d3c;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;}
+
+.button {
+    width: 100%;
+    height: 45px;
+    background: rgba(180, 251, 208, 0.7) ;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;}
+
+.form-login p {
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px solid;}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;}
+
+.form-login a:hover {
+    text-decoration: underline;}
+
+ .login {
+    position: relative;
+    top: -50px;
+    left: 100px ;
+    padding: 30px;
+    border-radius: 50%;
+    margin-bottom: -15%;
+    height: 50% ;
+    width: 50% ;}
+
+    
+
+/*MEEEDIIIIAAA*/
+@media (max-width: 1000px) 
+{
+    .wrapper {perspective: 500px;}
+
+}
+
+
+
+
+    
+
+  
+  
+
+
+
+
+
+
+
